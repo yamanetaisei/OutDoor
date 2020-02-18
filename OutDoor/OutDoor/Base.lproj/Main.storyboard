@@ -24,7 +24,10 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VUp-5K-ZdM">
                                 <rect key="frame" x="306" y="722" width="53" height="56"/>
-                                <state key="normal" title="Button" image="setting_icon"/>
+                                <state key="normal" image="setting_icon"/>
+                                <connections>
+                                    <segue destination="Atq-H5-jnK" kind="presentation" identifier="goSetting" id="MT1-bP-MbQ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -44,6 +47,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="137.4384236453202"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fsu-UK-7rx">
+            <objects>
+                <viewController id="Atq-H5-jnK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AsP-Nm-C4X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="D0h-F0-puI"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TCY-3o-xSd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137" y="819"/>
         </scene>
     </scenes>
     <resources>
