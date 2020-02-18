@@ -9,4 +9,8 @@ setting
 ```
 first
 ```
-- 
+- 確認画面、終了画面
+```
+verification
+```
+
