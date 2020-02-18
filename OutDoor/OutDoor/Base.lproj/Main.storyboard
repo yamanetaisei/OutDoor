@@ -21,6 +21,9 @@
                                 <state key="normal" title="確認する">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="c4K-c0-hec" kind="presentation" modalPresentationStyle="fullScreen" id="PTh-s0-GbU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VUp-5K-ZdM">
                                 <rect key="frame" x="306" y="722" width="53" height="56"/>
@@ -47,6 +50,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="137.4384236453202"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="BQO-qI-8ld">
+            <objects>
+                <viewController id="c4K-c0-hec" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ayr-bt-Pe9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="wpI-0I-dIY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="a1g-vL-kTd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z8l-CC-RQ5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1159" y="137"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fsu-UK-7rx">
