@@ -92,6 +92,10 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gx1-Us-rjw">
                                 <rect key="frame" x="292" y="20" width="67" height="43"/>
                                 <state key="normal" title="確定"/>
+                                <connections>
+                                    <action selector="DecideButton:" destination="Atq-H5-jnK" eventType="touchUpInside" id="GW2-FO-gRq"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="Gy5-n4-VFX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NRh-f2-xRc">
                                 <rect key="frame" x="292" y="103" width="67" height="34"/>
@@ -133,7 +137,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TCY-3o-xSd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="818.7192118226601"/>
+            <point key="canvasLocation" x="-874" y="779"/>
         </scene>
     </scenes>
     <resources>

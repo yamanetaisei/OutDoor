@@ -10,6 +10,8 @@ import UIKit
 
 //チェックリストを格納するための変数
 var checkList = [String]()
+//確定させた時のリストをぶちこむ変数
+var decideList = [String]()
 
 class SettingViewController: UIViewController,UITableViewDelegate,UITableViewDataSource{
     
@@ -31,6 +33,10 @@ class SettingViewController: UIViewController,UITableViewDelegate,UITableViewDat
         viewDidLoad()
     }
     
+    @IBAction func DecideButton(_ sender: Any) {
+        // 表示させる確認項目を確定させる
+        decideList = checkList
+    }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         //表示するcellの個数
         return checkList.count
@@ -43,6 +49,7 @@ class SettingViewController: UIViewController,UITableViewDelegate,UITableViewDat
         checkCell.textLabel!.text  = checkList[indexPath.row]
         return checkCell
     }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
