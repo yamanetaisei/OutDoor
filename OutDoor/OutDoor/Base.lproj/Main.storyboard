@@ -79,7 +79,7 @@
                                 <rect key="frame" x="0.0" y="174" width="375" height="550"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="checkCell" id="Qx2-BM-8um">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CheckList" id="Qx2-BM-8um">
                                         <rect key="frame" x="0.0" y="28" width="375" height="43.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Qx2-BM-8um" id="FNw-iy-Wjp">
@@ -96,6 +96,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NRh-f2-xRc">
                                 <rect key="frame" x="292" y="103" width="67" height="34"/>
                                 <state key="normal" title="追加"/>
+                                <connections>
+                                    <action selector="AddButton:" destination="Atq-H5-jnK" eventType="touchUpInside" id="WeX-3F-Lmq"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RGr-iz-Ive">
                                 <rect key="frame" x="16" y="103" width="259" height="34"/>
@@ -123,6 +126,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="D0h-F0-puI"/>
                     </view>
+                    <connections>
+                        <outlet property="CheckListTextField" destination="RGr-iz-Ive" id="VI3-aN-T3q"/>
+                        <outlet property="tableView" destination="Ql8-yo-Yyz" id="G9m-lH-OLA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TCY-3o-xSd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
