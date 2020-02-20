@@ -50,6 +50,13 @@ class SettingViewController: UIViewController,UITableViewDelegate,UITableViewDat
         return checkCell
     }
     
+//    func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]?{
+//        let action = UIContextualAction(style:.normal, title:"normal"){ (action, view, completionHandler) in
+//            completionHandler(true)
+//        }
+//        let configuration = UISwipeActionsConfiguration(actions: [action])
+//        return configuration
+//    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
