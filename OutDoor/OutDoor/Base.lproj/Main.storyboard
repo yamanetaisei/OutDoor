@@ -100,6 +100,21 @@
             </objects>
             <point key="canvasLocation" x="1157.5999999999999" y="136.69950738916256"/>
         </scene>
+        <!--Last View Controller-->
+        <scene sceneID="xlh-cd-3gw">
+            <objects>
+                <viewController storyboardIdentifier="last" modalPresentationStyle="fullScreen" id="0kU-va-3vN" customClass="LastViewController" customModule="OutDoor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wjg-za-N3x">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="wyL-T6-YsL"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FGs-uS-vSQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2127" y="137"/>
+        </scene>
         <!--Setting View Controller-->
         <scene sceneID="fsu-UK-7rx">
             <objects>

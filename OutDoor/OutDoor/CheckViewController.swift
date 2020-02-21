@@ -16,10 +16,21 @@ class CheckViewController: UIViewController {
     var pushButton:Int = 0
     //完了ボタン
     @IBAction func doneButton(_ sender: Any) {
+        
+        let listLength:Int = decideList.count
+        
+        let storyboard:UIStoryboard = self.storyboard!
+        
+        let last = storyboard.instantiateViewController(withIdentifier: "last")
         //押した回数
         pushButton += 1
-        // label（checkItem）の文字変更
-        checkItem.text = decideList[pushButton]
+        
+        if pushButton < listLength{
+            // label（checkItem）の文字変更
+            checkItem.text = decideList[pushButton]
+        }else{
+            self.present(last, animated: true, completion: nil)
+        }
     }
     
     override func viewDidLoad() {
