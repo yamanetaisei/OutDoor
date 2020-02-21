@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6AAC922C23FE5B3A0066FD2B /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC922B23FE5B3A0066FD2B /* SettingViewController.swift */; };
+		6AAC922E23FFC3FF0066FD2B /* CheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC922D23FFC3FF0066FD2B /* CheckViewController.swift */; };
+		6AAC923023FFEC4D0066FD2B /* LastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC922F23FFEC4D0066FD2B /* LastViewController.swift */; };
 		6AC500F823FA7FE7008C3840 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC500F723FA7FE7008C3840 /* AppDelegate.swift */; };
 		6AC500FA23FA7FE7008C3840 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC500F923FA7FE7008C3840 /* SceneDelegate.swift */; };
 		6AC500FC23FA7FE7008C3840 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC500FB23FA7FE7008C3840 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 
 /* Begin PBXFileReference section */
 		6AAC922B23FE5B3A0066FD2B /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		6AAC922D23FFC3FF0066FD2B /* CheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
+		6AAC922F23FFEC4D0066FD2B /* LastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastViewController.swift; sourceTree = "<group>"; };
 		6AC500F423FA7FE7008C3840 /* OutDoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OutDoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AC500F723FA7FE7008C3840 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AC500F923FA7FE7008C3840 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				6AC500F923FA7FE7008C3840 /* SceneDelegate.swift */,
 				6AC500FB23FA7FE7008C3840 /* ViewController.swift */,
 				6AAC922B23FE5B3A0066FD2B /* SettingViewController.swift */,
+				6AAC922D23FFC3FF0066FD2B /* CheckViewController.swift */,
+				6AAC922F23FFEC4D0066FD2B /* LastViewController.swift */,
 				6AC500FD23FA7FE7008C3840 /* Main.storyboard */,
 				6AC5010023FA7FE8008C3840 /* Assets.xcassets */,
 				6AC5010523FA7FE8008C3840 /* Info.plist */,
@@ -140,6 +146,8 @@
 				6AC500FC23FA7FE7008C3840 /* ViewController.swift in Sources */,
 				6AC500F823FA7FE7008C3840 /* AppDelegate.swift in Sources */,
 				6AC500FA23FA7FE7008C3840 /* SceneDelegate.swift in Sources */,
+				6AAC922E23FFC3FF0066FD2B /* CheckViewController.swift in Sources */,
+				6AAC923023FFEC4D0066FD2B /* LastViewController.swift in Sources */,
 				6AAC922C23FE5B3A0066FD2B /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
