@@ -9,8 +9,10 @@
 import UIKit
 
 class LastViewController: UIViewController{
+    @IBOutlet weak var lastLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        lastLabel.text = "いってらっしゃーい！"
     }
 }

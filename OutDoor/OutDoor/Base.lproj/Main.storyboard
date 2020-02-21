@@ -107,13 +107,43 @@
                     <view key="view" contentMode="scaleToFill" id="wjg-za-N3x">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BUs-JI-xSH">
+                                <rect key="frame" x="59" y="241" width="257" height="158"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="158" id="BDj-zX-HWX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vFe-pR-JqF">
+                                <rect key="frame" x="51" y="623" width="273" height="117"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="117" id="iAj-0t-Bps"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="終わる"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="BUs-JI-xSH" firstAttribute="leading" secondItem="wyL-T6-YsL" secondAttribute="leading" constant="59" id="2G1-TZ-x22"/>
+                            <constraint firstItem="vFe-pR-JqF" firstAttribute="leading" secondItem="wyL-T6-YsL" secondAttribute="leading" constant="51" id="AUa-66-PwA"/>
+                            <constraint firstItem="BUs-JI-xSH" firstAttribute="centerX" secondItem="wjg-za-N3x" secondAttribute="centerX" id="RE9-0Y-zks"/>
+                            <constraint firstItem="BUs-JI-xSH" firstAttribute="centerX" secondItem="vFe-pR-JqF" secondAttribute="centerX" id="bVk-6g-L9H"/>
+                            <constraint firstItem="BUs-JI-xSH" firstAttribute="top" secondItem="wyL-T6-YsL" secondAttribute="top" constant="197" id="cnl-5s-hHB"/>
+                            <constraint firstItem="wyL-T6-YsL" firstAttribute="bottom" secondItem="vFe-pR-JqF" secondAttribute="bottom" constant="38" id="rwK-xo-GIn"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="wyL-T6-YsL"/>
                     </view>
+                    <connections>
+                        <outlet property="lastLabel" destination="BUs-JI-xSH" id="Opu-Pq-nDg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FGs-uS-vSQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2127" y="137"/>
+            <point key="canvasLocation" x="2125.5999999999999" y="136.69950738916256"/>
         </scene>
         <!--Setting View Controller-->
         <scene sceneID="fsu-UK-7rx">
