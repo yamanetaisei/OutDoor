@@ -10,9 +10,11 @@ import UIKit
 
 class LastViewController: UIViewController{
     @IBOutlet weak var lastLabel: UILabel!
+    
+    let message = ["いってらっしゃーい!", "気をつけてね!","いってこい！","いってら〜(^o^)ﾉｼ"]
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        lastLabel.text = "いってらっしゃーい！"
+        lastLabel.text = message[Int.random(in: 0..<4)]
     }
 }
