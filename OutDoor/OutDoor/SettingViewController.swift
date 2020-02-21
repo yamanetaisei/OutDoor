@@ -50,13 +50,17 @@ class SettingViewController: UIViewController,UITableViewDelegate,UITableViewDat
         return checkCell
     }
     
-//    func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]?{
-//        let action = UIContextualAction(style:.normal, title:"normal"){ (action, view, completionHandler) in
-//            completionHandler(true)
-//        }
-//        let configuration = UISwipeActionsConfiguration(actions: [action])
-//        return configuration
-//    }
+    // セルの編集許可
+    func tableView(_ tableView: UITableView, canEditRowAtindexPath: IndexPath) -> Bool{
+            return true
+    }
+    // スワイプしたセルを削除
+    func tableView(_ tableView:UITableView, commit editinrStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath){
+        if editinrStyle == UITableViewCell.EditingStyle.delete{
+            checkList.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath as IndexPath], with: UITableView.RowAnimation.automatic)
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
