@@ -124,6 +124,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="終わる"/>
+                                <connections>
+                                    <action selector="endButton:" destination="0kU-va-3vN" eventType="touchUpInside" id="pOF-WA-jGJ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>

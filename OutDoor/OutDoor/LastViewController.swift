@@ -17,4 +17,7 @@ class LastViewController: UIViewController{
         // Do any additional setup after loading the view.
         lastLabel.text = message[Int.random(in: 0..<4)]
     }
+    @IBAction func endButton(_ sender: Any) {
+        self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
+    }
 }
