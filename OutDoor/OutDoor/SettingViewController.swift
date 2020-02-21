@@ -60,6 +60,9 @@ class SettingViewController: UIViewController,UITableViewDelegate,UITableViewDat
             checkList.remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath as IndexPath], with: UITableView.RowAnimation.automatic)
         }
+        //TODOTODOTODOTODOTODOTODOTODOTODO
+        //checkListを保管
+        UserDefaults.standard.set(checkList, forKey: "CheckCell")
     }
     
     override func viewDidLoad() {
