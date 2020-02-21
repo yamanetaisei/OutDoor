@@ -33,10 +33,12 @@ class SettingViewController: UIViewController,UITableViewDelegate,UITableViewDat
         viewDidLoad()
     }
     
+    //確定ボタン
     @IBAction func DecideButton(_ sender: Any) {
         // 表示させる確認項目を確定させる
         decideList = checkList
     }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         //表示するcellの個数
         return checkList.count
