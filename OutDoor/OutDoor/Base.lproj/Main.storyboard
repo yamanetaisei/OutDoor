@@ -51,15 +51,15 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="137.4384236453202"/>
         </scene>
-        <!--View Controller-->
+        <!--Check View Controller-->
         <scene sceneID="BQO-qI-8ld">
             <objects>
-                <viewController id="c4K-c0-hec" sceneMemberID="viewController">
+                <viewController id="c4K-c0-hec" customClass="CheckViewController" customModule="OutDoor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ayr-bt-Pe9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="text" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aK5-Ts-swZ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aK5-Ts-swZ">
                                 <rect key="frame" x="68" y="203" width="239" height="137"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="137" id="zXr-Cm-NvB"/>
@@ -75,6 +75,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="完了"/>
+                                <connections>
+                                    <action selector="doneButton:" destination="c4K-c0-hec" eventType="touchUpInside" id="ouS-xE-LRN"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -89,6 +92,9 @@
                         <viewLayoutGuide key="safeArea" id="wpI-0I-dIY"/>
                     </view>
                     <navigationItem key="navigationItem" id="a1g-vL-kTd"/>
+                    <connections>
+                        <outlet property="checkItem" destination="aK5-Ts-swZ" id="uhe-0t-PnA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z8l-CC-RQ5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

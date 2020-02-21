@@ -62,8 +62,8 @@
 				6AC500F923FA7FE7008C3840 /* SceneDelegate.swift */,
 				6AC500FB23FA7FE7008C3840 /* ViewController.swift */,
 				6AAC922B23FE5B3A0066FD2B /* SettingViewController.swift */,
-				6AC500FD23FA7FE7008C3840 /* Main.storyboard */,
 				6AAC922D23FFC3FF0066FD2B /* CheckViewController.swift */,
+				6AC500FD23FA7FE7008C3840 /* Main.storyboard */,
 				6AC5010023FA7FE8008C3840 /* Assets.xcassets */,
 				6AC5010523FA7FE8008C3840 /* Info.plist */,
 			);
