@@ -151,7 +151,7 @@
         <!--Setting View Controller-->
         <scene sceneID="fsu-UK-7rx">
             <objects>
-                <viewController id="Atq-H5-jnK" customClass="SettingViewController" customModule="OutDoor" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="setting" id="Atq-H5-jnK" customClass="SettingViewController" customModule="OutDoor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AsP-Nm-C4X">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

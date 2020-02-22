@@ -26,6 +26,8 @@ class CheckViewController: UIViewController {
         pushButton += 1
         
         if pushButton < listLength{
+            //文字数に応じて文字の大きさを調節
+            checkItem.adjustsFontSizeToFitWidth = true
             // label（checkItem）の文字変更
             checkItem.text = decideList[pushButton]
         }else{
@@ -36,7 +38,14 @@ class CheckViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        //chekLabelの初期値を設定
-        checkItem.text = decideList[0]
+        //もしリストがnullならば
+        if decideList.isEmpty{
+            //文字数に応じて文字の大きさを調節
+            checkItem.adjustsFontSizeToFitWidth = true
+            checkItem.text = "設定画面で確認項目を設定してください"
+        }else{
+            //chekLabelの初期値を設定
+            checkItem.text = decideList[0]
+        }
     }
 }
