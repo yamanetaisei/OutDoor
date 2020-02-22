@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBAction func startButton(_ sender: Any) {
+        let storyboard: UIStoryboard = self.storyboard!
+        let checking = storyboard.instantiateViewController(withIdentifier: "checking")
+        self.present(checking, animated: true, completion: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

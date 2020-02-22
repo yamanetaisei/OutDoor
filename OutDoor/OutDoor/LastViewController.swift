@@ -18,6 +18,7 @@ class LastViewController: UIViewController{
         lastLabel.text = message[Int.random(in: 0..<4)]
     }
     @IBAction func endButton(_ sender: Any) {
+        // 二つ前の画面に戻る
         self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
     }
 }
