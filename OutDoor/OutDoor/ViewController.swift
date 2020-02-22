@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBAction func startButton(_ sender: Any) {
+        //同じストーリーボード上にあることを定義
+        let storyboard: UIStoryboard = self.storyboard!
+        //遷移先選択
+        let checking = storyboard.instantiateViewController(withIdentifier: "checking")
+        // 実際に移動
+        self.present(checking, animated: true, completion: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

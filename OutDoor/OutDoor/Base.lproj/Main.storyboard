@@ -22,7 +22,7 @@
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="c4K-c0-hec" kind="presentation" modalPresentationStyle="fullScreen" id="PTh-s0-GbU"/>
+                                    <action selector="startButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DAC-8k-elg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VUp-5K-ZdM">
@@ -54,7 +54,7 @@
         <!--Check View Controller-->
         <scene sceneID="BQO-qI-8ld">
             <objects>
-                <viewController id="c4K-c0-hec" customClass="CheckViewController" customModule="OutDoor" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="checking" modalPresentationStyle="fullScreen" id="c4K-c0-hec" customClass="CheckViewController" customModule="OutDoor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ayr-bt-Pe9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -151,7 +151,7 @@
         <!--Setting View Controller-->
         <scene sceneID="fsu-UK-7rx">
             <objects>
-                <viewController id="Atq-H5-jnK" customClass="SettingViewController" customModule="OutDoor" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="setting" id="Atq-H5-jnK" customClass="SettingViewController" customModule="OutDoor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AsP-Nm-C4X">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
