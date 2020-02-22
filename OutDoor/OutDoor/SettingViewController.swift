@@ -37,6 +37,9 @@ class SettingViewController: UIViewController,UITableViewDelegate,UITableViewDat
     @IBAction func DecideButton(_ sender: Any) {
         // 表示させる確認項目を確定させる
         decideList = checkList
+        //起動時の画面への遷移
+        //一つ前の画面に戻る
+        self.dismiss(animated: true, completion: nil)
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
