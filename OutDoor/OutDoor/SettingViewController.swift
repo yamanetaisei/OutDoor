@@ -8,8 +8,7 @@
 
 import UIKit
 
-//チェックリストを格納するための変数
-var checkList = [String]()
+
 //確定させた時のリストをぶちこむ変数
 var decideList = [String]()
 
@@ -18,6 +17,9 @@ class SettingViewController: UIViewController,UITableViewDelegate,UITableViewDat
     // TextField
     @IBOutlet weak var CheckListTextField: UITextField!
     @IBOutlet weak var tableView: UITableView!
+    
+    //チェックリストを格納するための変数
+    var checkList = [String]()
     // 追加ボタン
     @IBAction func AddButton(_ sender: Any) {
         //checkListへぶちこむ
